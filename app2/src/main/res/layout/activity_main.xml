@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.myapplication.view.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hasLeftBtn="true"
+        app:leftBtnIcon="@mipmap/icon_menu"
+        app:textInfoCenter="首页"
+        app:textInfoRight="分享">
+    </com.example.myapplication.view.TitleView>
+        <com.ab.view.pullview.AbPullToRefreshView
+            android:id="@+id/mPullRefreshView"
+            android:layout_below="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white">
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/mSwipeMenuListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="#8FA5BE"
+                android:dividerHeight="0.5dp">
+            </com.baoyz.swipemenulistview.SwipeMenuListView>
+        </com.ab.view.pullview.AbPullToRefreshView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="TitleView">
+        <attr name="textInfoLeft" format="string"></attr>
+        <attr name="textInfoCenter" format="string"></attr>
+        <attr name="textInfoRight" format="string"></attr>
+        <attr name="leftBtnIcon" format="reference"></attr>
+        <attr name="backBtnIcon" format="reference"></attr>
+        <attr name="rightBtnIcon" format="reference"></attr>
+        <attr name="hasBackBtn" format="boolean"></attr>
+        <attr name="hasLeftBtn" format="boolean"></attr>
+        <attr name="hasRightBtn" format="boolean"></attr>
+
+    </declare-styleable>
+    <attr name="mainBackground" format="color|reference"></attr>
+</resources>

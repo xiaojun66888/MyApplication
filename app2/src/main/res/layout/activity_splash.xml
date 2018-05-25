@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="欢迎光临"/>
+</RelativeLayout>
