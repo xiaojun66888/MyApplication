@@ -24,6 +24,9 @@ import java.util.List;
 
 import static com.example.test.myapplication.R.id.et_chat_message;
 
+/**
+ * 聊天
+ */
 public class ChatInfoActivity extends AppBaseActivity implements View.OnClickListener, View.OnTouchListener, AbPullToRefreshView.OnFooterLoadListener, AbPullToRefreshView.OnHeaderRefreshListener {
 
     @ViewInject(value = R.id.ll_chat_main)
@@ -34,8 +37,6 @@ public class ChatInfoActivity extends AppBaseActivity implements View.OnClickLis
     private EditText etChatMsg;
     @ViewInject(value = R.id.btn_chat_message_send)
     private Button btnChatMsg;
-
-
     private List<PersonChat> personChats = new ArrayList<>();
     private ChatAdapter chatAdapter;
 
