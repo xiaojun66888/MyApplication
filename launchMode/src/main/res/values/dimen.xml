@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============全局统一字体大小============ -->
+    <dimen name="font_size_21sp">21sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="font_size_19sp">19sp</dimen>
+    <dimen name="font_size_18sp">18sp</dimen>
+    <dimen name="font_size_17sp">17sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_15sp">15sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_11sp">11sp</dimen>
+    <dimen name="font_size_10sp">10sp</dimen>
+    <dimen name="font_size_9sp">9sp</dimen>
+
+    <!-- =================自定义尺寸================ -->
+    <!-- 标题高度 -->
+    <dimen name="activity_title_height">55dp</dimen>
+    <!-- 标题左侧边距 -->
+    <dimen name="activity_margin_left">5dp</dimen>
+    <!-- 标题右侧边距 -->
+    <dimen name="activity_margin_right">5dp</dimen>
+
+</resources>

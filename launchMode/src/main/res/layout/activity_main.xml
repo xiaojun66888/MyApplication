@@ -5,29 +5,43 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/colorPrimary"
-        android:gravity="center_vertical"
-        android:paddingTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="我是主页面"
+        android:textSize="?font10" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="我是主页面"
+        android:textSize="?font11" />
 
-        <TextView
-            android:id="@+id/title_txt_center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:ellipsize="end"
-            android:maxEms="15"
-            android:singleLine="true"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
-    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="我是主页面"
+        android:textSize="?font12" />
+
 
     <Button
-        android:id="@+id/btn_skip"
+        android:id="@+id/btn_skip1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="跳转到MainActivity" />
+        android:text="smallSize" />
+
+    <Button
+        android:id="@+id/btn_skip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="normalSize" />
+
+    <Button
+        android:id="@+id/btn_skip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="largeSize" />
 </LinearLayout>
