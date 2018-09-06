@@ -15,7 +15,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends Activity {
 
-
     @InjectView(R.id.btn_skip1)
     Button btnSkip1;
     @InjectView(R.id.btn_skip2)
@@ -45,13 +44,22 @@ public class MainActivity extends Activity {
         switch (view.getId()) {
             case R.id.btn_skip1:
                 SpUtils.putSPValue(this,"s",1);
+                onResume();
                 break;
             case R.id.btn_skip2:
                 SpUtils.putSPValue(this,"s",2);
+                onResume();
                 break;
             case R.id.btn_skip3:
                 SpUtils.putSPValue(this,"s",3);
+                onResume();
                 break;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        onCreate(null);
     }
 }
